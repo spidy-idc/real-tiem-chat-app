@@ -1,0 +1,87 @@
+#nameBox:first-child {
+  margin-top: 50px;
+}
+
+#nameBox {
+  margin-bottom: 20px;
+  border: none;
+  background-color: transparent;
+  /* border: 2px solid black !important; */
+  height: 50px;
+  color:#3d3d3d !important;
+  /* text-align: center; */
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 600;
+  width: 300px;
+}
+
+#nameBox span {
+  margin-left: 20px;
+}
+
+.messages-box {
+  background-color: #fff !important;
+}
+
+body {
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    min-height: 100vh;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    width: 5px;
+    background: #f5f5f5;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    width: 1em;
+    background-color: #ddd;
+    outline: 1px solid slategrey;
+    border-radius: 1rem;
+  }
+  
+  .text-small {
+    font-size: 0.9rem;
+  }
+  
+  .messages-box,
+  .chat-box {
+    height: 510px;
+    overflow-y: scroll;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  input::placeholder {
+    font-size: 0.9rem;
+    color: #999;
+  }
+
+  header {
+    margin-bottom: 30px;
+  }
+
+  #chatBoxMargin {
+    width: 400px;
+  }
+
+  .active {
+    background: #EBEBEB !important;
+  }
+
+  @media screen and (max-width: 600px) {
+    .input-group {
+      margin-right: 100px;
+    }
+    #nameBox {
+      width: 150px !important;
+    }
+  }
